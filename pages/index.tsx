@@ -76,11 +76,11 @@ const Display =()=>{
         <p className="flex flex-row cursor-pointer hover:border-b-[1px]
          border-white" onClick={()=>{setIndex(2)}}>
           <FontAwesomeIcon icon={faUser} className=" w-[16px] h-[20px]" />
-          Profile</p>
+          Project</p>
         <p className="flex flex-row cursor-pointer hover:border-b-[1px]
          border-white" onClick={()=>{setIndex(3)}}>
           <FontAwesomeIcon icon={faUserCircle} className=" w-[20px] h-[20px]"/>
-          About Me</p>
+          Team</p>
       </div>
       <div className="overflow-y-auto h-[82%] w-[80%] mt-[30px] ml-[8%] scrollbar scrollbar-thumb-[#f5f5f5]
       scrollbar-w-[3px]  
