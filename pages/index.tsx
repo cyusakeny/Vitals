@@ -5,7 +5,7 @@ import Head from 'next/head';
 import classNames from 'classnames';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowCircleLeft, faArrowCircleRight, faHouseUser, faUserCircle} from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faCircle, faUser } from '@fortawesome/free-regular-svg-icons';
 import Profile from '@/components/Profile';
 import About from '@/components/About';
@@ -97,9 +97,8 @@ const Display =()=>{
       </div>
       </div>
       <div className=" absolute bottom-[14%] text-[1px] left-[1%] w-[3%]">
-       <a href="https://www.linkedin.com/in/cyusa-munezero-keny-172b621bb/"><FontAwesomeIcon icon={faLinkedin} className=" text-[#b3afaf] w-[23px] h-[30px]"/></a> 
-       <a href=""><FontAwesomeIcon icon={faTwitter} className=" text-[#b3afaf] w-[23px] h-[30px]"/></a>
-      <a href=""><FontAwesomeIcon icon={faFacebook} className="text-[#b3afaf] w-[23px] h-[30px]" /></a>
+       <a href="https://www.youtube.com/@VitalsElab"><FontAwesomeIcon icon={faYoutube} className=" text-[#b3afaf] w-[23px] h-[30px]"/></a> 
+       <a href="https://www.instagram.com/vitals_elab_c6/"><FontAwesomeIcon icon={faInstagram} className=" text-[#b3afaf] w-[23px] h-[30px]"/></a>
       </div>
       <div className=" text-[#b3afaf] text-center flex flex-col space-y-[20px] absolute bottom-[54%] w-[3%] left-[90%]">
       <p className={Page1}>01</p>
