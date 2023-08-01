@@ -64,7 +64,7 @@ const Display =()=>{
   return (
     <>
         <Head>
-        <title>Cyusa Keny</title>
+        <title>Vitals</title>
       </Head>
     <div className=" flex flex-col bg-[#04001f] h-screen overflow-y-hidden">
       <div className="mt-[10px] text-white  flex flex-row justify-end 
