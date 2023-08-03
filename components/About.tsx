@@ -18,7 +18,7 @@ const About: React.FC<MyComponentProps> = ({ /* Destructure props here */ }) => 
             <div className="rounded-full bg-[#e30b21] w-16 h-16 flex items-center justify-center text-white text-3xl font-bold">
               CN
             </div>
-            <p className='mt-[23px]'>Chanceline Niyodushima</p>
+            <p className='mt-[23px]'>Chanceline Niyotugendana</p>
           </div>
           <div className='flex flex-row space-x-[13px]'>
             <div className="rounded-full bg-[#e3dc0b] w-16 h-16 flex items-center justify-center text-black text-3xl font-bold">
